@@ -33,7 +33,7 @@ La salida nos indica que nos encontramos en la rama **main** de nuestro reposito
 
 Para crear una nueva rama donde llevaremos a cabo nuestro desarrollo utilizaremos el comando **$ git branch -M {nombre de la rama}**.
 ```
-$ git branch -M dev_Gerardo
+$ git branch -b dev_Gerardo
 ```
 Una vez creada la rama en automático git nos cambia a la nueva rama que hemos creado, utilizando el comando **git brach** podemos comprobar que se ha creado la rama de manera correcta.
 
