@@ -37,7 +37,7 @@ $ git branch -b dev_Gerardo
 ```
 Una vez creada la rama en automático git nos cambia a la nueva rama que hemos creado, utilizando el comando **git brach** podemos comprobar que se ha creado la rama de manera correcta.
 
-# Paso 3 - agregar cambios
+# Paso 3 - Agregar cambios a nuestra área de Staging
 Una vez realizado algún cambio en alguno de nuestros archivos de nuestro repositorio comprobaremos cuales son los cambios que tenemos sin agregar con el comando **git status**.
 ```
 $ git status
@@ -54,7 +54,7 @@ $ git add .
 Con el comando **git status** podemos comprobar que los cambios han sido agregados de forma correcta.
 
 ![image](https://github.com/user-attachments/assets/fa1d4ab1-cd42-40dc-914c-526b8a59216b)
-# Paso 4 - agregar cambios a nuestra área de respositorio
+# Paso 4 - Agregar cambios a nuestra área de respositorio
 Cuando queremos agregar los cambios que tenemos a nuestra área de respositorio local esta es un área antes de subir los cambios a nuestro repositorio remoto y ser parte de nuestra versión final, debemos utilizar el comando **git commit -m "{mensaje con una breve descripción de los cambios que se han realizado}"**.
 ```
 $ git commit -m "Se agrego nueva línea de código para comprobar cambios"
@@ -66,7 +66,7 @@ Con el comando **git status** podemos comprobar que ya no tenemos ningún archiv
 
 ![image](https://github.com/user-attachments/assets/21ab2b5e-bece-4750-9f3e-39587858385d)
 
-# Paso 5 - comprobar si no hay cambios nuevos en el respositorio Remoto
+# Paso 5 - Comprobar si no hay cambios nuevos en el respositorio Remoto
 Utilizando el comando **git pull** podemos validar si existe algún cambio reciente en el repositorio remoto, esto se hace escensialmente para ver si otra persona no a agregado un nuevo modulo igual al nuestro antes de subir nuestros cambios.
 ```
 $ git pull
@@ -74,7 +74,7 @@ $ git pull
 Output: </br>
 ![image](https://github.com/user-attachments/assets/eaf3fc64-48b7-4bdd-bdd1-c1ac961120ae)
 
-# Paso 6 - cambiar de ramas antes de actualizar cambios
+# Paso 6 - Cambiar de rama antes de actualizar cambios
 
 Utilizaremos el comando ** git checkout {nombre de la rama a la que nos moveremos}**, esto con el fin de movernos a la rama de donde vamos a actualizar los cambios.
 ```
